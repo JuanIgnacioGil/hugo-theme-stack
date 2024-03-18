@@ -9,6 +9,35 @@ copyright: Juan Ignacio Gil Gómez
 # Available values: es
 DefaultContentLanguage: es
 
+### Custom menu
+### See https://docs.stack.jimmycai.com/configuration/custom-menu.html
+### To remove about, archive and search page menu item, remove `menu` field from their FrontMatter
+menu:
+    main: []
+
+    social:
+        - identifier: mastodon
+          name: Mastodon
+          url: https://mastodon.floe.earth/@juanignaciogil
+          params:
+              icon: mastodon
+        - identifier: linkedin
+          name: Linkedin
+          url: https://www.linkedin.com/in/juanignaciogilgomez/
+          params:
+              icon: linkedin
+        - identifier: telegram
+          name: Telegram
+          url: https://t.me/+ZbUyYRa5oGAxMzQ8
+          params:
+              icon: telegram
+        - identifier: github
+          name: GitHub
+          url: https://github.com/JuanIgnacioGil
+          params:
+              icon: brand-github
+
+
 permalinks:
     post: /p/:slug/
     page: /:slug/
